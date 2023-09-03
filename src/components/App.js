@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/App.css";
-import FoodList from "./foodlist";
+import FoodList from "./FoodList";
 
 const App = () => {
-	return (
-		<div className="App">
-			<FoodList />
-		</div>
-	);
+  return (
+    <div className="App">
+      <FoodList />
+    </div>
+  );
 };
 
 export default App;
